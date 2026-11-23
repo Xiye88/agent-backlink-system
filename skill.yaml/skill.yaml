@@ -1,5 +1,0 @@
-name: "agent_backlink_system"
-title: "Agent Backlink System"
-description: "Run a multi-agent backlink operation: a coordinator-owned channel library, per-product sender bots, intersection mining for new channels, submit kits, and a 14-day listing inspection cycle."
-category: "Work and knowledge"
-include_in_prompt: false
