@@ -1,0 +1,5 @@
+Example Directory (exampledir.com) | in review |  |  | https://exampledir.com/submit | Product A | 2026-11-23 submitted with product mailbox, free tier, review queue stated as 3 to 5 days
+Launch List (launchlist.io) | listed | https://launchlist.io/products/product-a | nofollow | https://launchlist.io/submit | Product A | 2026-11-23 live immediately after email confirmation, link attribute measured on the public page
+Peer-Found Tools (peerfound.tools) | found entry | https://peerfound.tools/tools/peer-one |  | https://peerfound.tools/submit | Product A | mining: links to 4 seed products in this category, submit page confirmed public
+Pricey Hub (priceyhub.com) | paid |  |  | https://priceyhub.com/submit | Product A | 2026-11-23 free tier removed, cheapest listing 79 USD one-time, skipped per free-only rule
+Badge Gate (badgegate.com) | note |  |  | https://badgegate.com/add | Product A | 2026-11-23 free listing requires embedding their badge, skipped per no-badge rule, kept in notes for a future pass

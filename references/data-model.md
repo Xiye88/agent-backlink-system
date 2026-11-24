@@ -28,13 +28,15 @@ One row per site times target page actually submitted:
 - Link attribute: dofollow or nofollow, measured on the live page
 - Registered account: the product mailbox used
 - Notes
+
 ## Sender ledger and inbox files (one set per product)
 
 - The ledger is the product's running narrative record, owned by its sender bot.
 - The inbox file is the machine-readable daily output the coordinator imports. One line per site:
 
 ```
-Site name (domain) | result | listing URL | rel | correct submit page | product | note with date```
+Site name (domain) | result | listing URL | rel | correct submit page | product | note with date
+```
 
 - Result words stay inside a fixed vocabulary the importer understands: found entry, unavailable, rejected, paid, listed, passed, in review, note. Map local wording to this vocabulary before writing the file, or the import fails.
 
@@ -43,6 +45,7 @@ Site name (domain) | result | listing URL | rel | correct submit page | product 
 See submit-kit-template.md. The kit is input data for submissions, not a record of them.
 
 ## Fallback batch list (one shared file)
+
 Sites the sender browsers could not finish, one line each, with the reason:
 
 - Needs the dedicated login account (Google or GitHub only)
