@@ -19,6 +19,7 @@ The discovery engine. Instead of copying public directory lists, find where simi
 - For the seed set, find domains that link to at least 3 different seeds.
 - Capture, for each hit, the domain, how many seeds it links to, and the exact landing page URL where a peer is listed. The landing page is the evidence and usually sits one click away from the submit entry.
 - Use public sources for the link data, such as the Common Crawl index, search-engine link queries or free backlink checkers. Mark the source and the confidence in the note, because public data is noisier than the intersection threshold assumes.
+- Optionally, the operator may plug in a paid backlink data source that returns full referring-domain lists per seed: the data is fresher and also covers small seeds that public crawls miss, so intersections computed from it carry higher confidence. Keep the public sources as the fallback when the paid source is unavailable or out of budget, and track the per-round spend in the mining report.
 
 ## Step 4: dedupe and hand over
 
